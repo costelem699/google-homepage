@@ -8,6 +8,43 @@
     color: gray;
     padding: 4px;
 }
-.content{
-    display: flexbox;
+.navbar a:hover{
+    text-decoration: underline;
 }
+
+
+.content{
+    text-align: center;
+    padding-top: 3em;
+}
+.logo{
+    padding-bottom: 4em;
+}
+
+#search{
+    height: 3em;
+    width: 50%;
+    border-radius: 20px;
+    border-color: whitesmoke;
+    box-shadow: 1px;  
+    background: url(search_black_24dp.svg) no-repeat scroll 7px 7px;
+    padding-left:30px;
+}
+.buttons{
+    padding: 3em;
+    text-align: center;
+}
+.buttons a{
+    margin-top: 3em;
+    padding: 1em;
+    padding-right: 2em;
+    padding-left: 2em;
+    border-radius: 2px;
+    border-color: rgb(172, 170, 170);
+    text-decoration: none;
+    color: gray;
+}
+.buttons a:hover{
+    border: solid 1px gray;
+}
+
