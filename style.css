@@ -24,9 +24,10 @@
 #search{
     height: 3em;
     width: 50%;
+    border: 2px solid;
+    border-color: rgb(53, 52, 52);
     border-radius: 20px;
-    border-color: whitesmoke;
-    box-shadow: 1px;  
+    border-color: whitesmoke;  
     background: url(search_black_24dp.svg) no-repeat scroll 7px 7px;
     padding-left:30px;
 }
@@ -45,6 +46,6 @@
     color: gray;
 }
 .buttons a:hover{
-    border: solid 1px gray;
+    background-color: rgb(241, 241, 241);
 }
 
